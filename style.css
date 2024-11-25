@@ -67,6 +67,7 @@ body{
 }
 .profile-details .intro h2{
     margin-top: 20px;
+    font-size: 30px;
 }
 .profile-details .intro h4{
     background: #1d1d1d;
@@ -74,6 +75,7 @@ body{
     border-radius: 4px;
     padding: 5px 10px;
     margin: 8px;
+    /* visibility: hidden; */
 }
 .profile-details .intro .social{
     margin-top: 10px;
@@ -173,7 +175,7 @@ body{
     margin:0.5rem 0;
 }
 .about p{
-    color:#555;
+    color:#777;
     margin:1.5rem 0;
 }
 .about .work{
@@ -185,7 +187,7 @@ body{
     display: flex;
     align-items: center;
     height: 5rem;
-    justify-content: space-between;
+    justify-content: center;
     border-radius:8px;
     border:1px solid #333;
     padding: 1rem;
@@ -194,8 +196,9 @@ body{
 
 }
 .work .workbox .desc{
-    width:75%;
+    width:100%;
     color:#555;
+    text-align: center;
 }
 .work .workbox:hover{
    transform: scale(1.05);
@@ -256,4 +259,11 @@ body{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(4,auto);
     }
+    .tooltip:hover .tooltiptext {
+        opacity: 1;
+        scale: 1;
+        width: 250px;
+        left: 50%;
+        margin-left: -125px;
+      }
 }
