@@ -18,8 +18,9 @@
     font-family: Roboto Slab,sans-serif;
 }
 body{
-    background: linear-gradient(45deg, var(--purple),var(--purple-light));
-}
+     background: linear-gradient(45deg, var(--purple),var(--purple-light)); 
+     
+     }  
 .container{
     display: flex;
     justify-content: space-around;
